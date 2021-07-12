@@ -1,34 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Reservia</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Load icon/police library -->
+        <link rel="stylesheet" href="https://kit.fontawesome.com/92fd16b537.js" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Reservia</title>
     </head>
     <body>
-         <!-- header -->
-            <header id="header">
-                <div>
-                  <img src="images/logo/Reservia.svg" />
+        <!-- Nav -->
+        <nav class="sizeNav">
+            <div class="sizeLiens flexBetween">
+              <div>
+                <img
+                  class="marglogo"
+                  src="images/logo/Reservia.svg"
+                  alt="Logo Reservia"
+                  width="120px"
+                  height="50px"
+                />
+              </div>
+              <div class="sizeLien12 flexCentre">
+                <div class="sizeLien flexCentre bordureNav">
+                  <a class="colorLien2 decorationNone" href="#hebergements">Hébergements</a>
                 </div>
-                <nav id="nav">
+                <div class="sizeLien flexCentre bordureNav">
+                  <a class="colorLien2 decorationNone" href="#activites">Activités</a>
+                </div>
+              </div>
+              <div class="sizeLien flexCentre bordureNav">
+                <a class="texteGras colorBleu decorationNone" href="#">S'inscrire</a>
+              </div>
+            </div>
+          </nav>
+        <!-- header -->
+            <header id="header">
+             
+                <!-- <nav id="nav">
                     <ul>
                         <li><a href="#hebergements">Hébergements</a></li>
                         <li><a href="#activites">Activités</a></li>
-                        <li><a href="#" class="button primary">S'inscrire</a></li>
                     </ul>
                 </nav>
+                <div><a href="#" class="button primary">S'inscrire</a></div>
+            -->
                 <h1>Trouvez votre hébergements pour des vacances de rêve</h1><br /> 
-                <em>En plein centre ville ou en pleine nature</em> 
+                <p>En plein centre ville ou en pleine nature</p> 
+            
+        <!-- les filtres -->
+                <h1>Filtres</h1>
+                <div id="filtres">
+	                <ul>
+		                <li class="filter" data-filter="economique">Économique</li>
+		                <li class="filter" data-filter="familial">Familial</li>
+		                <li class="filter" data-filter="romantique">Romantique</li>
+                        <li class="filter" data-filter="animaux">Animaux autorisés</li>
+	                </ul>
+                </div>
+                <p>PLus de 500 logements sont disponibles dans cette ville</p>
             </header>
+        <main id="main">  
+        <!-- Les plus populaires -->  
+            <section id="populaires">
+                <div class="content">
+                    <header>
+                        <h1>Les plus populaires</h1>
 
-
+                    </header>
+                </div>
+            </section>
         <!-- Hébergements -->
             <section id="hebergements">
                 <div class="content">
                     <header>
                         <h1>Hébergements à Marseille</h1>
                     </header>
+                </div>
+                <div class="imageshebergements">
+                    <figure>
+                        <img 
+                        src="images/hebergements/4_small/1alc_small.jpg"
+                        alt="Auberge de la Cannebière">
+                        <figcaption>Auberge de la Cannebière</figcaption>
+                    <h3>Nuit à partir de <em>25€</em></h3>
+                    </figure>
+                    <figure>
+                        <img 
+                        src="images/hebergements/4_small/2hdp_small.jpg"
+                        alt="Hôtel du port">
+                        <figcaption>Hôtel du port</figcaption>
+                    <h2>Nuit à partir de 52<em>€</em></h2>
+                    </figure>
+                    <figure>
+                        <img 
+                        src="images/hebergements/4_small/3hlm_small.jpg"
+                        alt="Hôtel Les mouettes">
+                        <figcaption>Hôtel Les mouettes</figcaption>
+                    <h2>Nuit à partir de 76<em>€</em></h2>
+                    </figure>
+                    <figure>
+                        <img 
+                        src="images/hebergements/4_small/4hdlm_small.jpg"
+                        alt="Hôtel de la mer">
+                        <figcaption>Hôtel de la mer</figcaption>
+                    <h2>Nuit à partir de 46<em>€</em></h2>
+                    </figure>
+                    <figure>
+                        <img 
+                        src="images/hebergements/4_small/5alp_small.jpg"
+                        alt="Auberge Le panier">
+                        <figcaption>Auberge Le panier</figcaption>
+                    <h2>Nuit à partir de <em>23€</em></h2>
+                    </figure>
+                    <figure>
+                        <img 
+                        src="images/hebergements/4_small/6hca_small.jpg"
+                        alt="Hôtel chez Amina">
+                        <figcaption>Hôtel chez Amina</figcaption>
+                    <h2>Nuit à partir de 96<em>€</em></h2>
+                    </figure>
                 </div>
             </section>
         <!-- Activités --> 
@@ -39,8 +133,25 @@
                     </header>
                 </div>
             </section>
+        </main>         
         <!-- Footer -->
-            <footer id="footer">
-            </footer>
+        <footer id="footer">
+                <h3>A propos</h3>
+                    <ul>
+                        <li><a href="fonctionnementdusite.html" target="_blank">Fonctionnement du site</a></li>
+                        <li><a href="conditionsgeneralesdevente.html" target="_blank">Conditions générales de vente</a></li>
+                        <li><a href="donneesetconfidentialite.html" target="_blank">Données et confidentialité</a></li>
+                    </ul>
+                <h3>Nos hébergements</h3>
+                    <ul>
+                        <li><a href="chartequalite.html" target="_blank">Charte qualité</a></li>
+                        <li><a href="soumettrevotrehotel.html" target="_blank">Soumettre votre hôtel</a></li>
+                    </ul>
+                <h3>Assistance</h3>
+                    <ul>
+                        <li><a href="centredaide.html" target="_blank">Centre d'aide</a></li>
+                        <li><a href="nouscontacter.html" target="_blank">Nous contacter</a></li>
+                    </ul>
+        </footer>
    </body>
 </html>
