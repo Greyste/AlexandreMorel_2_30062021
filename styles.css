@@ -4,15 +4,18 @@ body {
 }
 html {font-size: 62.5%;}
 #main_wrapper {
-    max-width: 1440px;
+    max-width: 144rem;
     margin: auto;
 }
-h2, h3 {
+h2 {
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
 }
 em {
     font-weight: Bold;
+}
+h1 {
+    font-size: 1.6rem;
 }
 
 /* ------------- COLOR -------------*/
@@ -41,6 +44,7 @@ em {
 }
 .Boldtext {
     font-weight: bold;
+    font-size:1.8rem;
 }
 /* ------------- Logo ------------- */
 .logo {
@@ -201,6 +205,9 @@ em {
     display: flex;
     align-items: center;
 }
+.info p {
+    font-size:1.2rem;
+}
 .infoIcon {
     display: flex;
     justify-content: center;
@@ -214,7 +221,7 @@ em {
 /* ------------- Host ------------- */
 .HostingTrend {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 .HostingFlex {
@@ -227,13 +234,13 @@ em {
     height: 60rem;
     margin-right: 2rem;
     border-radius: 1rem;
-    max-width: 60%;
+    max-width: 65%;
+    min-width: 65%;
 }
 .Blockone {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 1rem;
     flex-direction:row;
 }
 .BlockTwo {
@@ -243,7 +250,7 @@ em {
 }
 .CardHost {
     margin: 1rem;
-    padding: 0.7rem;
+    padding: 0.3rem;
     background-color: white;
     border-radius: 1rem;
     cursor: pointer;
@@ -260,15 +267,12 @@ em {
 .CardHost__img img {
     max-height: 11.4rem;
     min-height: 11.4rem;
-    min-width: 23.6rem;
-    min-width: 23.6rem;
+    width: 100%;
     border-radius: 1rem 1rem 0 0;
     object-position: center;
     object-fit: cover;
 }
 .CardHostText {
-    max-width: 24.6rem;
-    min-width: 24,6rem;
     padding-left: 2rem;
 }
 .MoreHosting {
@@ -287,6 +291,7 @@ em {
     flex: 1;
     height: 60rem;
     max-width: 25%;
+    min-width: 25%;
     margin-left: 2rem;
     border-radius: 1rem;
     padding-left: 2rem;
@@ -303,6 +308,7 @@ em {
     justify-content: space-between;
     align-items: center;
     margin-left: 2rem;
+    margin-top: 1rem;
 }
 .CardTrend {
     display: flex;
@@ -322,10 +328,9 @@ em {
     transform: scale(1.05);
 }
 .CardTrend__img img {
-    max-height: 13.4rem;
-    min-height: 13.4rem;
+    height: 14.5rem;
     max-width: 12.7rem;
-    max-width: 12.7rem;
+    min-width: 12.7rem;
     border-radius: 1rem 0rem 0 1rem;
     object-position: center;
     object-fit: cover;   
@@ -343,6 +348,9 @@ em {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+.Activities h3 {
+    font-size: 1.8rem;
+}
 .ActivitiesFlex {
     width: 100%;
     height: 45rem;
@@ -351,8 +359,6 @@ em {
     align-items: center;
 }
 .CardActivities {
-    
-    margin: 1rem;
     background-color: white;
     border-radius: 1rem;
     cursor: pointer;
@@ -362,6 +368,13 @@ em {
 }
 .CardActivities:hover {
     transform: scale(1.05);
+}
+.CardAlignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+    height: 44.8rem;
 }
 .CardActivities h3 {
     padding-left: 1rem;
@@ -383,7 +396,7 @@ em {
 .CardActivities_2 {
     min-height: 23.8rem;
     max-height: 23.8rem;
-
+    margin-bottom: 4.3rem;
 }
 .CardActivities__img_2 img {
     max-height: 18.0rem;
@@ -408,6 +421,7 @@ em {
 .CardActivities_5 {
     min-height: 19.8rem;
     max-height: 19.8rem;
+    margin-bottom: 3.9rem;
 }
 .CardActivities__img_5 img {
     max-height: 14rem;
@@ -432,14 +446,21 @@ em {
 /* ------------- footer ------------- */
 .footer {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     padding: 5rem;
     height: 5rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
+}
+.footer h3, a {
+    font-size: 1.8rem;
+}
+.footer__set {
+    margin-bottom: 1rem;
+    margin-right: 25rem;
 }
 .footer__set a{
     color: black ;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
