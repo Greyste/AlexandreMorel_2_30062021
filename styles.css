@@ -1,0 +1,445 @@
+html,
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+html {font-size: 62.5%;}
+#main_wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+h2, h3 {
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+em {
+    font-weight: Bold;
+}
+
+/* ------------- COLOR -------------*/
+:root {
+    --Blue: #0065fc;
+    --LightBlue: #deebff;
+    --Grey: #f2f2f2;
+}
+.colorBlue {
+    Color: var(--Blue);    
+}
+.colorLightBlue {
+    Color: var(--LightBlue);
+}
+.colorGrey {
+    Color: var(--Grey);
+}
+.BlueBG {
+    background-color: var(--Blue); 
+}
+.LightBlueBG {
+    background-color: Var(--LightBlue); 
+}
+.GreyBG {
+    background-color: var(--Grey); 
+}
+.Boldtext {
+    font-weight: bold;
+}
+/* ------------- Logo ------------- */
+.logo {
+    height: 2.9rem;
+    width: 9.6rem;
+    margin-bottom: 0.7rem;
+}
+/* ------------- Nav ------------- */
+.nav {
+    height: 7rem
+}
+.nav__set {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link {
+    margin-left: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__link__set {
+    width: 14rem;
+    height: 9.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__TopBorder {
+    border-top: 0.15rem solid transparent;
+}
+.nav__TopBorder:hover {
+    border-top: 0.15rem solid var(--Blue);
+    cursor: pointer;
+}
+.nav__TopBorder:hover > a {
+    color: var(--Blue)
+}
+.nav__nodeco__Ancor {
+    color: black ;
+    text-decoration: none;
+}
+.nav__nodeco__join {
+    color: var(--Blue) ;
+    text-decoration: none;
+}
+/* ------------- Filter ------------- */
+.filter {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.filterTitle {
+    margin-right: 2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.filterFIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.filterSetFicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -0.2rem;
+    border-radius: 2.5rem;
+    min-width: 5.2rem;
+    height: 5.2rem;
+    color: var(--Blue);
+    background-color: var(--Grey);
+}
+.filterName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    border-radius: 0 2.5rem 2.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.filterBarSet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2rem solid var(--Grey);
+    height: 5rem;
+    border-radius: 3rem;
+    margin-right: 2rem;
+}
+.filterBarSet:hover > .filterName {
+    color: var(--Blue);
+    cursor:pointer;
+    transform: scale(1.1)
+}
+.filterBarSet:hover > .filterSetFicon {
+    color: white;
+    background-color: var(--Blue);
+    transform: scale(1.25);
+}
+.filterFIcons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ------------- Button ------------- */
+.bar__search {
+    width: 36.8rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--Grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon__search {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 0 0 1rem;
+}
+.btn_search {
+    height: 5rem;
+    width: 13.4rem;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.btn_search:hover {
+    background-color: var(--Grey);
+    color: var(--Blue);
+  }
+.searchSet {
+    height: 5rem;
+    width: 23.4rem;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-left: 2rem;
+  }
+/* ------------- Info ------------- */
+.info {
+    display: flex;
+    align-items: center;
+}
+.infoIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 0.2rem solid var(--Grey);
+    border-radius: 2.5rem;
+    margin-right: 0.5rem;
+}
+/* ------------- Host ------------- */
+.HostingTrend {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.HostingFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex: 2;
+    height: 60rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    max-width: 60%;
+}
+.Blockone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-direction:row;
+}
+.BlockTwo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.CardHost {
+    margin: 1rem;
+    padding: 0.7rem;
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(177 177 177);
+    max-width: 24.6rem;
+    min-width: 24.6rem;
+    max-height: 20.1rem;
+    min-height: 20.1rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.CardHost:hover {
+    transform: scale(1.05);
+}
+.CardHost__img img {
+    max-height: 11.4rem;
+    min-height: 11.4rem;
+    min-width: 23.6rem;
+    min-width: 23.6rem;
+    border-radius: 1rem 1rem 0 0;
+    object-position: center;
+    object-fit: cover;
+}
+.CardHostText {
+    max-width: 24.6rem;
+    min-width: 24,6rem;
+    padding-left: 2rem;
+}
+.MoreHosting {
+    cursor: pointer;
+    text-decoration:none;
+    color:black;
+    font-size:1.3rem;
+}
+/* ------------- Trend ------------- */
+.IconTrend {
+    height: 2.2rem;
+    width: 1.8rem;
+    margin-right: 2rem;
+}
+.TrendBlock {
+    flex: 1;
+    height: 60rem;
+    max-width: 25%;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--Grey);
+}
+.TrendFlex__CardBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.TrendFlex__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+.CardTrend {
+    display: flex;
+    margin: 1rem;
+    padding: 0.3rem;
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(177 177 177);
+    max-width: 34.3rem;
+    min-width: 34.3rem;
+    max-height: 14.5rem;
+    min-height: 14.5rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.CardTrend:hover {
+    transform: scale(1.05);
+}
+.CardTrend__img img {
+    max-height: 13.4rem;
+    min-height: 13.4rem;
+    max-width: 12.7rem;
+    max-width: 12.7rem;
+    border-radius: 1rem 0rem 0 1rem;
+    object-position: center;
+    object-fit: cover;   
+}
+.CardTrend__align {
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+}
+.CardTrend__align__Stars {
+    padding-left:1rem;
+    padding-bottom: 0.3rem;
+}
+/* ------------- Activities ------------- */
+.Activities {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.ActivitiesFlex {
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CardActivities {
+    
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(177 177 177);
+    min-width: 30.2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.CardActivities:hover {
+    transform: scale(1.05);
+}
+.CardActivities h3 {
+    padding-left: 1rem;
+    align-items: top;
+}
+.CardActivities_1_4 {
+    min-height: 44.8rem;
+    max-height: 44.8rem;
+    max-width:30.2rem;
+}
+.CardActivities__img_1_4 img {
+    max-height: 38.9rem;
+    min-height: 38.9rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-position: top;
+    object-fit:cover;
+}
+.CardActivities_2 {
+    min-height: 23.8rem;
+    max-height: 23.8rem;
+
+}
+.CardActivities__img_2 img {
+    max-height: 18.0rem;
+    min-height: 18.0rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-position:center;
+    object-fit:cover;
+}
+.CardActivities_3 {
+    max-height: 16.7rem;
+    min-height: 16.7rem;
+}
+.CardActivities__img_3 img {
+    max-height: 10.9rem;
+    min-height: 10.9rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-position: top;
+    object-fit: cover;
+}
+.CardActivities_5 {
+    min-height: 19.8rem;
+    max-height: 19.8rem;
+}
+.CardActivities__img_5 img {
+    max-height: 14rem;
+    min-height: 14rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-position: top;
+    object-fit: cover;
+}
+.CardActivities_6 {
+    min-height: 21.1rem;
+    max-height: 21.1rem;
+}
+.CardActivities__img_6 img {
+    max-height: 15.3rem;
+    min-height: 15.3rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-position: top;
+    object-fit: cover;
+}
+/* ------------- footer ------------- */
+.footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5rem;
+    height: 5rem;
+    margin-top: 10rem;
+}
+.footer__set a{
+    color: black ;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
