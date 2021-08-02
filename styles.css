@@ -17,7 +17,9 @@ em {
 h1 {
     font-size: 1.6rem;
 }
-
+.FooterlessContainer {
+    margin:5rem;
+}
 /* ------------- COLOR -------------*/
 :root {
     --Blue: #0065fc;
@@ -44,7 +46,7 @@ h1 {
 }
 .Boldtext {
     font-weight: bold;
-    font-size:1.8rem;
+
 }
 /* ------------- Logo ------------- */
 .logo {
@@ -235,7 +237,7 @@ h1 {
     margin-right: 2rem;
     border-radius: 1rem;
     max-width: 65%;
-    min-width: 65%;
+    min-width: 81.8rem;
 }
 .Blockone {
     display: flex;
@@ -279,7 +281,8 @@ h1 {
     cursor: pointer;
     text-decoration:none;
     color:black;
-    font-size:1.3rem;
+    font-size: 1.4rem;
+    padding-left: 2rem;
 }
 /* ------------- Trend ------------- */
 .IconTrend {
@@ -291,7 +294,7 @@ h1 {
     flex: 1;
     height: 60rem;
     max-width: 25%;
-    min-width: 25%;
+    min-width: 36.3rem;
     margin-left: 2rem;
     border-radius: 1rem;
     padding-left: 2rem;
@@ -307,7 +310,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 1rem;
 }
 .CardTrend {
@@ -319,7 +322,7 @@ h1 {
     cursor: pointer;
     box-shadow: 0.5rem 0.5rem 1rem rgb(177 177 177);
     max-width: 34.3rem;
-    min-width: 34.3rem;
+    min-width: 30.3rem;
     max-height: 14.5rem;
     min-height: 14.5rem;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -347,6 +350,8 @@ h1 {
 .Activities {
     margin-top: 5rem;
     margin-bottom: 5rem;
+    max-width: 100%;
+    min-width: 126.8rem;
 }
 .Activities h3 {
     font-size: 1.8rem;
