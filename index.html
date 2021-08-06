@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Reservia</title>
     </head>
     <body>
@@ -38,13 +39,13 @@
         <header>
             <section>
                 <div>
-                    <h1 class="Boldtext">Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centres ville ou en pleine nature</p>
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <div class="TextsetHeader"><p>En plein centres ville ou en pleine nature</p></div>
                 </div>
 <!-- Search button -->            
                 <div class="bar__search">
                     <div class="GreyBG icon__search">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-map-marker-alt fa-2x"></i>
                     </div>
                     <div>
                         <input
@@ -84,9 +85,9 @@
 <!-- FILTER end -->
                 <div class="info">
                     <div class="infoIcon">
-                        <i class="fas fa-info colorBlue"></i>
+                        <i class="fas fa-info colorBlue "></i>
                     </div>
-                    <div>
+                    <div class="InfoSetText">
                         <p>Plus de 500 logements sont disponibles dans cette ville</p>
                     </div>
                 </div>
@@ -95,7 +96,9 @@
             <section id="Hosting" class="HostingTrend">
 <!-- Hosting start -->   
                 <div class="HostingFlex GreyBG">
-                    <h2>Hébergements à Marseille</h2>
+                    <div class="AlignText">
+                        <h2>Hébergements à Marseille</h2>
+                    </div>
                         <div class="Blockone">
                             <div class="CardHost">
                                 <div class="CardHost__img">
@@ -196,7 +199,9 @@
                                 </div>      
                             </div>
                         </div> 
-                        <div><a class="Boldtext MoreHosting" href="#">Afficher plus</a></div>
+                        <div class="Boldtext">
+                            <a href="#" class="MoreHosting">Afficher plus</a>
+                        </div>
                 </div>
 <!-- Hosting end -->
 <!-- Trend start -->
@@ -244,7 +249,7 @@
                         </div>
                         <div class="CardTrend">
                             <div class="CardTrend__img">
-                                <img style="height:378;" src="images/hebergements/4_small/9htbeb_small.jpg" alt="Hôtel Tout bleu et Blanc">
+                                <img src="images/hebergements/4_small/9htbeb_small.jpg" alt="Hôtel Tout bleu et Blanc">
                             </div>
                             <div>
                                 <div class="CardTrend__align">
@@ -271,10 +276,10 @@
                 <h2>Activités à Marseille</h2>
                 <div class="ActivitiesFlex">
                     <div class="CardActivities CardActivities_1_4">
-                        <div class="CardActivities__img_1_4">
+                        <div class="CardActivities__img_1_4 CardActivitiesImgP0s1">
                             <img src="images/activites/4_small/1vp_small.jpg" alt="Vieux Port">
                         </div>
-                        <h3>Vieux Port</h3>                    
+                        <div class="AlignTextActivities"><h3>Vieux Port</h3></div>                    
                     </div>
                     <div class="CardAlignment">
                         <div class="CardActivities CardActivities_2">
@@ -291,12 +296,12 @@
                         </div>
                     </div>
                     <div class="CardActivities CardActivities_1_4">
-                        <div class="CardActivities__img_1_4">
+                        <div class="CardActivities__img_1_4 CardActivitiesImgP0s4">
                             <img src="images/activites/4_small/4pndc_small.jpg" alt="Parc National des Calanques">
                         </div>
                         <h3>Parc National des Calanques</h3>
                     </div>
-                    <div class="CardAlignment">
+                    <div class="CardAlignment2">
                         <div class="CardActivities CardActivities_5">
                             <div class="CardActivities__img_5">
                                 <img src="images/activites/4_small/5nddlg_small.jpg" alt="Notre-Dame-de-la-Garde">
@@ -313,7 +318,7 @@
                 </div>
             </section>
         </div>
-        <footer class="footer GreyBG">
+        <footer class="footerBlock footer GreyBG">
             <div class="footer__margin">
                 <h3>A propos</h3>
                     <div class="footer__set">

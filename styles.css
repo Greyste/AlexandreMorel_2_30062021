@@ -4,12 +4,12 @@ body {
 }
 html {font-size: 62.5%;}
 #main_wrapper {
-    max-width: 144rem;
+    max-width: 1440px;
     margin: auto;
 }
 h2 {
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
 }
 em {
     font-weight: Bold;
@@ -18,7 +18,14 @@ h1 {
     font-size: 1.6rem;
 }
 .FooterlessContainer {
-    margin:5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+.TextsetHeader p {
+    font-size: 1.4rem;
+    margin-bottom:2rem;
 }
 /* ------------- COLOR -------------*/
 :root {
@@ -72,7 +79,7 @@ h1 {
 }
 .nav__link__set {
     width: 14rem;
-    height: 9.9rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,10 +97,12 @@ h1 {
 .nav__nodeco__Ancor {
     color: black ;
     text-decoration: none;
+    font-size:1.2rem;
 }
 .nav__nodeco__join {
     color: var(--Blue) ;
     text-decoration: none;
+    font-size:1.2rem;
 }
 /* ------------- Filter ------------- */
 .filter {
@@ -103,9 +112,9 @@ h1 {
     margin-bottom: 4rem;
 }
 .filterTitle {
-    margin-right: 2rem;
+    margin-right: 3rem;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .filterFIcon {
     display: flex;
@@ -128,10 +137,10 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 5rem;
-    padding-left: 1.5rem;
+    padding-left: 1.6rem;
     padding-right: 2rem;
     border-radius: 0 2.5rem 2.5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 .filterBarSet {
@@ -141,7 +150,7 @@ h1 {
     border: 0.2rem solid var(--Grey);
     height: 5rem;
     border-radius: 3rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 .filterBarSet:hover > .filterName {
     color: var(--Blue);
@@ -160,7 +169,7 @@ h1 {
 }
 /* ------------- Button ------------- */
 .bar__search {
-    width: 36.8rem;
+    width: 33.8rem;
     border-radius: 1rem;
     border: 0.1rem solid var(--Grey);
     display: flex;
@@ -168,16 +177,16 @@ h1 {
     align-items: center;
 }
 .icon__search {
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    min-width: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem 0 0 1rem;
 }
 .btn_search {
-    height: 5rem;
-    width: 13.4rem;
+    height: 4rem;
+    width: 10.4rem;
     color: white;
     cursor: pointer;
     font-size: 1.3rem;
@@ -191,9 +200,9 @@ h1 {
     color: var(--Blue);
   }
 .searchSet {
-    height: 5rem;
-    width: 23.4rem;
-    font-size: 1.3rem;
+    height: 4rem;
+    width: 21.4rem;
+    font-size: 1.5rem;
     color: black;
     font-weight: bold;
     display: flex;
@@ -206,10 +215,12 @@ h1 {
 .info {
     display: flex;
     align-items: center;
+    padding-bottom: 2rem;
 }
-.info p {
-    font-size:1.2rem;
+.InfoSetText {
+    font-size: 1.4rem;
 }
+
 .infoIcon {
     display: flex;
     justify-content: center;
@@ -221,10 +232,19 @@ h1 {
     margin-right: 0.5rem;
 }
 /* ------------- Host ------------- */
+.AlignText {
+    margin:2rem;
+}
 .HostingTrend {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+.HostingTrend h3 {
+    font-size:1.4rem;
+  }
+  .HostingTrend p {
+    font-size:1.2rem;
   }
 .HostingFlex {
     display: flex;
@@ -275,14 +295,14 @@ h1 {
     object-fit: cover;
 }
 .CardHostText {
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .MoreHosting {
     cursor: pointer;
     text-decoration:none;
     color:black;
-    font-size: 1.4rem;
-    padding-left: 2rem;
+    font-size: 1.6rem;
+    padding: 2rem;
 }
 /* ------------- Trend ------------- */
 .IconTrend {
@@ -344,7 +364,7 @@ h1 {
 }
 .CardTrend__align__Stars {
     padding-left:1rem;
-    padding-bottom: 0.3rem;
+    padding-top: 4rem;
 }
 /* ------------- Activities ------------- */
 .Activities {
@@ -354,7 +374,8 @@ h1 {
     min-width: 126.8rem;
 }
 .Activities h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .ActivitiesFlex {
     width: 100%;
@@ -381,9 +402,16 @@ h1 {
     align-items: center;
     height: 44.8rem;
 }
+.CardAlignment2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+    height: 44.8rem;
+}
 .CardActivities h3 {
-    padding-left: 1rem;
-    align-items: top;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
 }
 .CardActivities_1_4 {
     min-height: 44.8rem;
@@ -393,10 +421,16 @@ h1 {
 .CardActivities__img_1_4 img {
     max-height: 38.9rem;
     min-height: 38.9rem;
-    width: 100%;
+    width: 30.2rem;
     border-radius: 1rem 1rem 0 0;
-    object-position: top;
-    object-fit:cover;
+/*    object-position: top;*/
+    object-fit:none;
+}
+.CardActivitiesImgP0s1 img {
+    object-position: 48% 28%;
+}
+.CardActivitiesImgP0s4 img {
+    object-position: 48% 28%;
 }
 .CardActivities_2 {
     min-height: 23.8rem;
@@ -408,7 +442,7 @@ h1 {
     min-height: 18.0rem;
     width: 100%;
     border-radius: 1rem 1rem 0 0;
-    object-position:center;
+    object-position: 50% 40%;
     object-fit:cover;
 }
 .CardActivities_3 {
@@ -420,7 +454,7 @@ h1 {
     min-height: 10.9rem;
     width: 100%;
     border-radius: 1rem 1rem 0 0;
-    object-position: top;
+    object-position: 50% 20%;;
     object-fit: cover;
 }
 .CardActivities_5 {
@@ -445,7 +479,7 @@ h1 {
     min-height: 15.3rem;
     width: 100%;
     border-radius: 1rem 1rem 0 0;
-    object-position: top;
+    object-position: 50% 15%;
     object-fit: cover;
 }
 /* ------------- footer ------------- */
@@ -456,16 +490,175 @@ h1 {
     padding: 5rem;
     height: 5rem;
     margin-top: 2rem;
+    max-width: 100%;
 }
-.footer h3, a {
-    font-size: 1.8rem;
+.footer__margin {
+    min-width: 37.5rem;
+}
+.footer__margin h3 {
+    font-size:1.6rem;
 }
 .footer__set {
     margin-bottom: 1rem;
-    margin-right: 25rem;
+    margin-right: 5rem;
 }
 .footer__set a{
     color: black ;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
+
+/* ------------- Responsive------------- */
+@media screen and ( max-width: 1440px) {
+    .loupe {
+        display:none;
+    }
+    .nav__link {
+        margin-left: 60%;
+    }
+}
+@media screen and ( max-width: 1375px) {
+    .nav__link {
+        margin-left: 50%;
+    }
+    .HostingTrend {
+        flex-direction:column-reverse;
+        max-width: 100%;
+    }
+    .HostingFlex {
+        min-width:100%;
+        background-color: white;
+    }
+    .CardHost {
+        min-width: 30%;
+        min-height: 50%;
+    }
+    .CardTrend {
+        min-width: 30%;
+    }
+    .TrendBlock {
+        min-width:100%;
+        padding-bottom:2rem;
+        margin-bottom: 2rem;
+
+    }
+    .TrendFlex__CardBlock {
+        flex-direction:row;
+    }
+    .ActivitiesFlex {
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .CardActivities {
+        max-height: 19.1rem;
+    }
+}
+
+@media screen and ( max-width:990px ) {
+    .filter {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .filterBarSet {
+        margin-top: 2rem;
+    }
+    .FooterlessContainer {
+        margin-left: 1rem;
+    }
+    .Activities {
+        min-width: 90rem;
+    }
+    .ActivitiesFlex {
+        height: auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    .CardActivities {
+        margin-bottom: 4rem;
+    }
+}
+@media screen and ( max-width:375px ) { 
+    .loupe {
+        display:inline;
+    }
+    .btn_search:hover {
+        background-color: var(--Blue);
+
+    }
+    .filterBarSet {
+        margin-right:1.5rem;
+    }
+    .filterName {
+        padding-right:1rem;
+        padding-left:1rem;
+    }
+    .filterFIcons {
+        flex-direction: column;
+        align-items: start;
+    }
+    .filterBarSet {
+        margin-top: 2rem;
+    }
+    .TrendFlex__CardBlock {
+        flex-direction:column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .footer {
+        flex-direction:column;
+        align-items: start;
+        max-width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+    .Blockone {
+        flex-direction:column;
+    }
+    .BlockTwo {
+        flex-direction:column;
+    }
+    .CardHost {
+        margin: 1rem;
+        padding: 0.3rem;
+        min-width: 33.5rem;
+        max-height: 20.1rem;
+    }
+    .HostingFlex {
+        height: auto;
+        padding-left: 8rem;
+    }
+    .TrendBlock {
+        margin-left: 5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .footerBlock {
+        padding-left: 5rem;
+    }
+    .Activities {
+        min-width: 37.5rem;
+        margin-left: 1.5rem;
+    }
+    .CardActivities {
+        min-height: 19.1rem;
+        min-width: 33.5rem;
+    }
+    .CardActivities__img_1_4{
+        max-height: 13.3rem;
+    }
+    .CardActivities__img_1_4 img {
+        max-height: 13.3rem;
+        min-height: 13.3rem;
+        width: 100%;
+    }
+    .CardActivitiesImgP0s1 img {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    }
+
+
+
