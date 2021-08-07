@@ -83,6 +83,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    order: 2;
 }
 .nav__TopBorder {
     border-top: 0.15rem solid transparent;
@@ -92,6 +93,16 @@ h1 {
     cursor: pointer;
 }
 .nav__TopBorder:hover > a {
+    color: var(--Blue)
+}
+.nav__TopBorderAncor {
+    border-top: 0.15rem solid transparent;
+}
+.nav__TopBorderAncor:hover {
+    border-top: 0.15rem solid var(--Blue);
+    cursor: pointer;
+}
+.nav__TopBorderAncor:hover > a {
     color: var(--Blue)
 }
 .nav__nodeco__Ancor {
@@ -160,7 +171,7 @@ h1 {
 .filterBarSet:hover > .filterSetFicon {
     color: white;
     background-color: var(--Blue);
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
 .filterFIcons {
     display: flex;
@@ -555,6 +566,10 @@ h1 {
 }
 
 @media screen and ( max-width:990px ) {
+    .TrendBlock {
+        padding-left: 4rem;
+        padding-right: 7rem;
+    }
     .filter {
         flex-direction: column;
         justify-content: space-around;
@@ -587,6 +602,44 @@ h1 {
         background-color: var(--Blue);
 
     }
+    .AlignTextHeader {
+        margin-top: 9rem;
+    }
+    .nav__set {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .nav__link {
+        width: 100%;
+        order:1;
+        margin-left: -8%;
+        width: 100%;
+    }
+    .nav__link__set {
+        order:1;
+    }
+    .nav__TopBorderAncor {
+        border-bottom: 0.35rem solid transparent;
+        padding-left: 6rem;
+        padding-right: 3rem;
+    }
+    .nav__TopBorderAncor:hover {
+        border-bottom: 0.35rem solid var(--Blue);
+    }
+    .nav__TopBorderAncor:hover {
+        border-top: 0.15rem solid transparent;
+    }
+    .nav__TopBorder:hover {
+            border-top: 0.15rem solid transparent;
+            transform: scale(1.1);
+    }
+    .nav__nodeco__Ancor {
+        font-size: 2.1rem;
+    }
+    .nav__nodeco__join {
+        font-size: 2.1rem;
+    }
     .filterBarSet {
         margin-right:1.5rem;
     }
@@ -613,6 +666,9 @@ h1 {
         height: auto;
         padding: 2rem;
     }
+    .AlignText {
+        margin-left: 0rem;
+    }
     .Blockone {
         flex-direction:column;
     }
@@ -627,19 +683,31 @@ h1 {
     }
     .HostingFlex {
         height: auto;
-        padding-left: 8rem;
+        padding-left: 3rem;
     }
     .TrendBlock {
-        margin-left: 5rem;
+        margin-left: 2rem;
         padding-left: 5rem;
-        padding-right: 5rem;
+        padding-right: 10rem;
+    }
+    .IconTrend {
+        margin-right: orem;
+    }
+    .CardTrend {
+        min-width: 33.5rem;
+        min-height: 14.5rem;
+        max-height: 14.5rem;
+        max-width: 33.5rem;
     }
     .footerBlock {
-        padding-left: 5rem;
+        padding-left: 2rem;
+    }
+    .ActivitiesFlex {
+        justify-content: start;
     }
     .Activities {
-        min-width: 37.5rem;
-        margin-left: 1.5rem;
+        min-width: 35.5rem;
+        margin-left: -0.5rem;
     }
     .CardActivities {
         min-height: 19.1rem;
@@ -656,6 +724,16 @@ h1 {
     .CardActivitiesImgP0s1 img {
         object-fit: cover;
         object-position: center;
+    }
+    .nav_set_HA {
+        margin-left:0rem;
+    }
+    .nav_set_J {
+        margin-left:4rem;
+        margin-top: 1rem;
+    }
+    .FooterlessContainer {
+        margin-right:-1rem;
     }
 
     }
