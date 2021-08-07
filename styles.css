@@ -683,11 +683,11 @@ h1 {
     }
     .HostingFlex {
         height: auto;
-        padding-left: 3rem;
+        padding-left: 3.5rem;
     }
     .TrendBlock {
         margin-left: 2rem;
-        padding-left: 5rem;
+        padding-left: 5.5rem;
         padding-right: 10rem;
     }
     .IconTrend {
@@ -707,7 +707,7 @@ h1 {
     }
     .Activities {
         min-width: 35.5rem;
-        margin-left: -0.5rem;
+        margin-left: 0.3rem;
     }
     .CardActivities {
         min-height: 19.1rem;
@@ -724,6 +724,38 @@ h1 {
     .CardActivitiesImgP0s1 img {
         object-fit: cover;
         object-position: center;
+    }
+    .CardActivities__img_2{
+        max-height: 13.3rem;
+    }
+    .CardActivities__img_2 img {
+        max-height: 13.3rem;
+        min-height: 13.3rem;
+        width: 100%;
+    }
+    .CardActivities__img_3{
+        max-height: 13.3rem;
+    }
+    .CardActivities__img_3 img {
+        max-height: 13.3rem;
+        min-height: 13.3rem;
+        width: 100%;
+    }
+    .CardActivities__img_5{
+        max-height: 13.3rem;
+    }
+    .CardActivities__img_5 img {
+        max-height: 13.3rem;
+        min-height: 13.3rem;
+        width: 100%;
+    }
+    .CardActivities__img_6{
+        max-height: 13.3rem;
+    }
+    .CardActivities__img_6 img {
+        max-height: 13.3rem;
+        min-height: 13.3rem;
+        width: 100%;
     }
     .nav_set_HA {
         margin-left:0rem;
