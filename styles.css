@@ -683,9 +683,11 @@ h1 {
     .HostingFlex {
         height: auto;
         align-items: center;
+        justify-content: center;
     }
     .TrendBlock {
         align-content: center;
+        justify-content: center;
     }
     .IconTrend {
         margin-right: orem;
