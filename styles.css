@@ -655,7 +655,7 @@ h1 {
     .TrendFlex__CardBlock {
         flex-direction:column;
         flex-wrap: wrap;
-        max-width: 100%;
+        max-width: 90%;
         align-content: center;
     }
     .footer {
@@ -684,6 +684,7 @@ h1 {
         height: auto;
         align-items: center;
         justify-content: center;
+        padding-left:0rem;
     }
     .TrendBlock {
         align-content: center;
@@ -703,6 +704,7 @@ h1 {
     }
     .ActivitiesFlex {
         justify-content: center;
+        width:90%;
     }
     .Activities {
         min-width: 35.5rem;
