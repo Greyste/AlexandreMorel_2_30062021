@@ -540,7 +540,7 @@ h1 {
     }
     .HostingTrend {
         flex-direction:column-reverse;
-        max-width: 95%;
+        max-width: 100%;
     }
     .HostingFlex {
         min-width:100%;
@@ -816,7 +816,7 @@ h1 {
         min-width: 30.5rem;
     }
     .Activities {
-        min-width: 3.5rem;
+        min-width: 31.3rem;
     }
     .info {
         display: flex;
