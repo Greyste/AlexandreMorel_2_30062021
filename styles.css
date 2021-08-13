@@ -535,9 +535,12 @@ h1 {
     .nav__link {
         margin-left: 50%;
     }
+    .nav {
+        max-width: 90%;
+    }
     .HostingTrend {
         flex-direction:column-reverse;
-        max-width: 100%;
+        max-width: 95%;
     }
     .HostingFlex {
         min-width:100%;
@@ -595,13 +598,16 @@ h1 {
         min-width: 90rem;
     }
 }
-@media screen and (max-width: 768px) and (min-width: 360px) {
+@media screen and (max-width: 768px) {
     .btn_search:hover {
         background-color: var(--Blue);
 
     }
     .AlignTextHeader {
         margin-top: 9rem;
+    }
+    .nav {
+        max-width: 99%;
     }
     .nav__set {
         display: flex;
@@ -789,6 +795,43 @@ h1 {
         transform: scale(1.1);
       }
     }
+    @media screen and (max-width: 374px) and (min-width: 320px) {
+    .bar__search {
+            width: 100%;
+    }
+    .filterFIcon {
+        align-items: start;
+        flex-direction: column;
+    }
+    .CardTrend {
+        min-width: 30.5rem;
+    }
+    .CardHost {
+        min-width: 30.5rem;
+    }
+    .HostingFlex {
+        padding-left: 2.5rem;
+    }
+    .CardActivities {
+        min-width: 30.5rem;
+    }
+    .Activities {
+        min-width: 3.5rem;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        padding-bottom: 2rem;
+        margin-right: 3rem;
+    }
+    .nav_set_HA {
+        margin-left: -1rem;
+    }
+    .TrendFlex__CardBlock {
+        max-width: 95%;
+    }
+
+}
 
 
 
