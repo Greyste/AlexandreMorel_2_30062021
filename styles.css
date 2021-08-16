@@ -690,7 +690,7 @@ h1 {
         height: auto;
         align-items: center;
         justify-content: center;
-        padding-left:0rem;
+        padding-right:8rem;
     }
     .TrendBlock {
         align-content: center;
@@ -794,10 +794,13 @@ h1 {
     .searchL:hover {
         transform: scale(1.1);
       }
+      .TrendFlex__header {
+        margin-right: 2rem;
+      }
     }
-    @media screen and (max-width: 374px) and (min-width: 320px) {
+    @media screen and (max-width: 375px) and (min-width: 320px) {
     .bar__search {
-            width: 100%;
+            width: 86%;
     }
     .filterFIcon {
         align-items: start;
@@ -810,7 +813,7 @@ h1 {
         min-width: 30.5rem;
     }
     .HostingFlex {
-        padding-left: 2.5rem;
+        padding-left: 8rem;
     }
     .CardActivities {
         min-width: 30.5rem;
@@ -829,6 +832,9 @@ h1 {
     }
     .TrendFlex__CardBlock {
         max-width: 95%;
+    }
+    .Activities {
+        padding-left:1.5rem;
     }
 
 }
